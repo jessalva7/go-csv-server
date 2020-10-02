@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/jessalva7/go-csv-file-server/pkg/parsing"
+	"github.com/jessalva7/go-csv-server/pkg/parsing"
 	"log"
 	"net/http"
 )

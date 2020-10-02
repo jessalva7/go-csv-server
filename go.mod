@@ -1,4 +1,4 @@
-module github.com/jessalva7/go-csv-file-server
+module github.com/jessalva7/go-csv-server
 
 go 1.15
 
