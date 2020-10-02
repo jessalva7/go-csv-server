@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/jessalva7/go-csv-file-server/pkg/handlers"
-	"github.com/jessalva7/go-csv-file-server/pkg/parsing"
+	"github.com/jessalva7/go-csv-server/pkg/handlers"
+	"github.com/jessalva7/go-csv-server/pkg/parsing"
 	"log"
 	"os"
 )
