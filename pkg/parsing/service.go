@@ -50,7 +50,7 @@ func (ps *parsingService) ParseCSV(csvFile io.Reader) error {
 
 	}
 
-	parsedCSVJson, err := json.Marshal( parsedCSV )
+	parsedCSVJson, err := json.Marshal(parsedCSV)
 	if err != nil {
 		return err
 	}

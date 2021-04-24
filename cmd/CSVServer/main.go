@@ -16,6 +16,6 @@ func main() {
 	uploadHandler := handlers.NewUploadHandler(logger, parsingService)
 
 	router.POST("/uploadCSV", uploadHandler.UploadCSV)
-	_ = router.Run(":9074")
+	_ = router.Run(":80")
 
 }

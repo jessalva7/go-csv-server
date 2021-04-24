@@ -64,7 +64,6 @@ func (uh uploadHandler) UploadCSV(c *gin.Context) {
 
 	}()
 
-
 	log.Print("parsed CSV: ", f.Filename)
 	c.JSON(http.StatusOK, "Parsed CSV successfully")
 

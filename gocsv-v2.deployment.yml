@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: gocsv
+spec:
+  replicas: 3
+  minReadySeconds: 10
+  selector:
+    matchLabels:
+      name: gocsv
+  template:
+    metadata:
+      labels:
+        name: gocsv
+    spec:
+      containers: 
+        - image: localhost:5000/gocsv:2.0
+          ports:
+            - containerPort: 80
+          name: gocsv
+          # imagePullPolicy: Never
+          resources: 
